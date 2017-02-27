@@ -6,7 +6,7 @@ Your challenge is to programmatically process a list of commands for getting rea
 ## Installation
 
 Requires Maven to build the project. 
-Run "mvn install" the the root of the project.
+Run "mvn install" at the root of the project.
 
 ## Usage
 
@@ -20,14 +20,3 @@ TODO: Write usage instructions
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license
