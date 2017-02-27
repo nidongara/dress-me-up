@@ -3,11 +3,10 @@ package com.docusign.Rules;
 import com.docusign.enums.Constants;
 import com.docusign.enums.Temperature;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Rule that validates if pants are worn before shoes
  */
 public class PantsBeforeShoes extends BasicRule {
 

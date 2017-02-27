@@ -12,6 +12,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 import java.util.Scanner;
 
+/**
+ * Main file for the application to boot.
+ */
 @SpringBootApplication
 public class DressMeUp {
 

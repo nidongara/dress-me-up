@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by nihardongara on 2/23/17.
+ * Interface for CommandsManager
  */
 public interface CommandsManager {
     List<Command> getCommands();

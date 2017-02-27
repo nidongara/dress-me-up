@@ -5,7 +5,7 @@ import com.docusign.enums.Temperature;
 import java.util.List;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Rule that validates if Pajama is take of first.
  */
 public class PajamasFirst extends BasicRule {
 

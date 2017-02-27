@@ -1,7 +1,7 @@
 package com.docusign.enums;
 
 /**
- * Created by nihardongara on 2/23/17.
+ * Enum for Temperature
  */
 public enum Temperature {
     HOT,

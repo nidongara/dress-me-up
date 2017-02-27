@@ -3,7 +3,7 @@ package com.docusign.Rules;
 import java.util.List;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Basic rule that can be overridden by more specific rule.
  */
 public class BasicRule {
 

@@ -14,7 +14,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by nihardongara on 2/27/17.
+ * Processor to process the input commands
  */
 @Component
 public class CommandsProcessorImpl implements CommandsProcessor {
@@ -24,6 +24,11 @@ public class CommandsProcessorImpl implements CommandsProcessor {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CommandsProcessorImpl.class);
 
+    /**
+     * Processws the input command
+     * @param input
+     * @return output
+     */
     @Override
     public String process(String input) {
         try {

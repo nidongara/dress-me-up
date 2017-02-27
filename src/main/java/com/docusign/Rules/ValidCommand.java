@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Rule that validates if all the commands are valid and belong to initial set of commands.
  */
 public class ValidCommand extends BasicRule {
 

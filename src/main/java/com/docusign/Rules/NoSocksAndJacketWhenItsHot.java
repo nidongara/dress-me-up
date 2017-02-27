@@ -6,7 +6,7 @@ import com.docusign.enums.Temperature;
 import java.util.*;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Rule that checks if no socks and jackets are worn if its hot.
  */
 public class NoSocksAndJacketWhenItsHot extends BasicRule {
 

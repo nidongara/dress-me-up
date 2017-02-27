@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Rule that validates if all the clothes are worn before leaving the houe
  */
 public class AllClothesAreOn extends BasicRule {
 

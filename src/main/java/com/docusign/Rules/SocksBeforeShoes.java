@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Rule that validates if socks are worn before shoes.
  */
 public class SocksBeforeShoes extends BasicRule {
 

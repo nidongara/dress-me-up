@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Rule that validates if only piece of each clothing is worn
  */
 public class OnlyPieceOfEachType extends BasicRule {
 

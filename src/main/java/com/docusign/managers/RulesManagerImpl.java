@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.StringJoiner;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Manager for the rules who is responsible for running all the rules on the input commands.
  */
 @Component
 public class RulesManagerImpl implements RulesManager {

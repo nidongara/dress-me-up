@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Rule that validates if shirt is worn before wearing jacket or head wear.
  */
 public class ShirtBeforeHeadWearOrJacket extends BasicRule {
 

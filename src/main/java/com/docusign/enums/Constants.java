@@ -1,7 +1,7 @@
 package com.docusign.enums;
 
 /**
- * Created by nihardongara on 2/27/17.
+ * Constants files
  */
 public class Constants {
     public static final String FAIL = "fail";

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.StringJoiner;
 
 /**
- * Created by nihardongara on 2/26/17.
+ * Interface for CommandsManager
  */
 public interface RulesManager {
     void registerRules(List<Integer> input, Temperature temperature);

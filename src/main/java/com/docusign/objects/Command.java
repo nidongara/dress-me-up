@@ -5,7 +5,7 @@ import com.docusign.enums.Temperature;
 import java.util.Map;
 
 /**
- * Created by nihardongara on 2/23/17.
+ * POJO for command storage
  */
 public class Command {
 
