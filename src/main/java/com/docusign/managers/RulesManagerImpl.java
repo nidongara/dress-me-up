@@ -6,6 +6,9 @@ import com.docusign.enums.Temperature;
 import com.docusign.interfaces.CommandsManager;
 import com.docusign.interfaces.RulesManager;
 import com.docusign.objects.Command;
+import com.docusign.processors.CommandsProcessorImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -24,6 +27,7 @@ public class RulesManagerImpl implements RulesManager {
     private boolean rulesRegistered = false;
     private List<Integer> input;
     private Temperature temperature;
+    private static final Logger LOGGER = LoggerFactory.getLogger(RulesManagerImpl.class);
 
     @Autowired
     CommandsManager commandsManager;
@@ -55,6 +59,8 @@ public class RulesManagerImpl implements RulesManager {
                 for (BasicRule rule : dressUpRules) {
                     if (!rule.evaluate(this.input.subList(0,index))) {
                         output.add(Constants.FAIL);
+                        LOGGER.info("Rule failed:{}",rule);
+                        LOGGER.info("Adding response:{}",Constants.FAIL);
                         commandValid = false;
                         break;
                     }
@@ -63,8 +69,10 @@ public class RulesManagerImpl implements RulesManager {
                    String response = commandMap.get(command).getResponses().get(this.temperature);
                    if(Constants.FAIL.equalsIgnoreCase(response)){
                        output.add(Constants.FAIL);
+                       LOGGER.info("Adding response:{}",Constants.FAIL);
                        break;
                    }else{
+                       LOGGER.info("Adding response:{}",response);
                        output.add(response);
                    }
                 }else{
@@ -74,7 +82,7 @@ public class RulesManagerImpl implements RulesManager {
             }
 
         } else {
-            System.out.println("Register the rules first");
+            LOGGER.error("Register the rules first");
         }
         return output;
     }
