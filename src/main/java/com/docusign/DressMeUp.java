@@ -1,7 +1,5 @@
 package com.docusign;
 
-import com.docusign.enums.Temperature;
-import com.docusign.interfaces.CommandsManager;
 import com.docusign.interfaces.CommandsProcessor;
 import com.docusign.interfaces.RulesManager;
 import org.slf4j.Logger;
@@ -12,10 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 @SpringBootApplication
 public class DressMeUp {

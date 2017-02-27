@@ -1,6 +1,5 @@
 package com.docusign.processors;
 
-import com.docusign.DressMeUp;
 import com.docusign.enums.Constants;
 import com.docusign.enums.Temperature;
 import com.docusign.interfaces.CommandsProcessor;
@@ -43,7 +42,7 @@ public class CommandsProcessorImpl implements CommandsProcessor {
             }
 
         } catch (Exception ex) {
-            LOGGER.error("Error occurred running rules {}", ex);
+            LOGGER.error("Error occurred running commands {}", ex);
         }
         return Constants.FAIL;
     }
