@@ -14,7 +14,7 @@ Requires Maven to build the project.
 After the executable jar is ready run the following command inside the target folder
  - java -jar coding-exercise-0.0.1-SNAPSHOT.jar
  
- or from main
+or from root
  
  - java -jar target/coding-exercise-0.0.1-SNAPSHOT.jar
 
